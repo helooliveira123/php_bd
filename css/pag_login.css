@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url('../imgs/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+header{
+    color: white;
+    font-size: 1.9em;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.campo-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    height: 45px;
+    width: 87%;
+    padding: 0 0 0 45px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+ion-icon{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: white;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    
+}
+
+input:focus::-webkit-input-placeholder{
+    color: transparent;
+    transition: 0.3s;
+}
+
+.submit{
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 0.9em;
+    height: 45px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: 0.3s;
+}

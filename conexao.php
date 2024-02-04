@@ -1,3 +1,3 @@
 <?php
-    $conexao=mysqli_connect('localhost', 'root', 'H3l0I&a²!@3', 'projeto_php');
+    $conexao=mysqli_connect('localhost', 'root', 'root', 'projeto_php');
 ?>
